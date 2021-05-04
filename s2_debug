@@ -1,0 +1,14 @@
+############################
+#Action Plan ###############
+#
+diagnose debug reset
+diagnose debug application ike -1
+diagnose debug enable
+#
+#After this try to bring the tunnel up or initiate traffic from FortiClient.
+############################
+#Once the logs are there please run the below:
+
+diagnose debug disable
+
+#Attach the CLI output with the case
