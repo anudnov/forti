@@ -1,24 +1,25 @@
-############################
-#Action Plan ###############
+#################################################################################
+#####...Action_Plan...###############
 #
 diagnose debug reset
 diagnose debug application ike -1
 diagnose debug enable
 #
 #After this try to bring the tunnel up or initiate traffic from FortiClient.
-############################
-#Once the logs are there please run the below:
+#################################################################################
+#####..Once the logs are there please run the below:
 
 diagnose debug disable
 
 #Attach the CLI output with the case
 
 
-###############################
+#################################################################################
+#####...Example...#############
 diagnose debug disable
 diagnose debug reset
 diagnose vpn ike gateway flush name s2s_name_***
 diagnose vpn ike log filter name s2s_name_***
 diagnose debug application ike -1
 diagnose debug enable
-###############################
+#################################################################################
