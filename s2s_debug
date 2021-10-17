@@ -12,3 +12,13 @@ diagnose debug enable
 diagnose debug disable
 
 #Attach the CLI output with the case
+
+
+###############################
+diagnose debug disable
+diagnose debug reset
+diagnose vpn ike gateway flush name s2s_name_***
+diagnose vpn ike log filter name s2s_name_***
+diagnose debug application ike -1
+diagnose debug enable
+###############################
